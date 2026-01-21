@@ -4,6 +4,13 @@ class User{
         this.email = email;
         this.role = role;
     }
+
+    login(){
+        console.log(`User: ${this.name} is logged in`);
+    }
+    logOut(){
+        console.log(`User: ${this.name} is logged out`);
+    }
 }
 
 
