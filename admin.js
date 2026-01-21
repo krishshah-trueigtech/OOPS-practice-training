@@ -6,6 +6,6 @@ class Admin extends User{
     }
 }
 
-const ad = new Admin("Krish","Software Engineer", Admin);
+const ad = new Admin("Krish","Software Engineer", "Admin");
 ad.createTask();
 ad.login();
