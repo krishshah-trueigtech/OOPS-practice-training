@@ -1,11 +1,11 @@
 import User from "./user.js"
 
-class Member extends User{
+export default class Member extends User{
     completeTask(){
+        super.login();
         console.log("Completed Task");
     }
+    logout(){
+        console.log("logged Out")
+    }
 }
-
-const newMember = new Member("Krish","Software Engineer","");
-newMember.completeTask();
-newMember.login();

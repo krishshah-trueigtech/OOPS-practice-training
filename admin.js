@@ -1,6 +1,6 @@
 import User from "./user.js"
 
-class Admin extends User{
+export default class Admin extends User{
     createTask(){
         console.log("created Task")
     }
