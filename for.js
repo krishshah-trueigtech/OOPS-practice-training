@@ -6,6 +6,7 @@ function* count(n){
     }
 }
 let gen = count(5);
+console.log(gen.next().value,"dadsad")
 for (let value of gen){
     console.log(value)
 }
